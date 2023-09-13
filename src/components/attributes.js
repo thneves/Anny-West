@@ -1,9 +1,10 @@
+import charsImg from '../public/static/images/chars.jpeg'
 
 const Attributes = () => {
     return (
         <div className="flex flex-row h-screen">
         <div className="w-3/5">
-          <Image src={aboutImg} quality={100} className='h-screen'/>
+          <Image src={charsImg} quality={100} className='h-screen'/>
         </div>
         <div className="flex flex-col items-center justify-center mx-auto w-2/5 bg-white">
           <div className='flex flex-row items-center justify-start'>
