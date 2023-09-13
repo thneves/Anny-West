@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import charsImg from 'public/static/images/chars.jpeg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import { AiFillCaretDown } from 'react-icons/ai';
 
 const Attributes = () => {
     return (
@@ -11,7 +10,7 @@ const Attributes = () => {
         </div>
         <div className="flex flex-col items-center justify-center mx-auto w-3/5 bg-primary text-text_dark">
           <div className='flex flex-row items-center justify-start'>
-            <FontAwesomeIcon icon={faPlay} className='text-icon icon-config-2'></FontAwesomeIcon>
+            <AiFillCaretDown color='#b16c51' size={80} />
             <h2 className='text-text_dark text-5xl font-semibold mt-4'>CARACTERÍSTICAS FÍSICAS</h2>
           </div>
           <div>

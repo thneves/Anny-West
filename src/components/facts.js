@@ -1,14 +1,13 @@
 import Image from 'next/image';
 import factsImg from 'public/static/images/facts.jpeg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import { AiFillCaretDown } from 'react-icons/ai';
 
 const Facts = () => {
   return (
     <div className="flex flex-row h-screen">
       <div className="flex flex-col items-center justify-center mx-auto w-1/2 bg-primary">
         <div className='flex flex-row items-center justify-start'>
-          <FontAwesomeIcon icon={faPlay} className='text-icon icon-config-2'></FontAwesomeIcon>
+          <AiFillCaretDown color='#b16c51' size={80} />
           <h2 className='text-text_dark text-5xl font-semibold mt-4'>CURIOSIDADES</h2>
         </div>
         <div className='flex flex-col items-left ml-20 mr-20'>
