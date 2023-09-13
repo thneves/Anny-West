@@ -1,12 +1,14 @@
 import Image from 'next/image';
 import aboutImg from 'public/static/images/about.jpeg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
   return (
     <div className="flex flex-row h-screen">
       <div className="flex flex-col items-center justify-center mx-auto w-3/5 bg-white">
         <div className='flex flex-row items-center justify-start'>
-          <div className='triangle'></div>
+          <FontAwesomeIcon icon={faPlay} className='text-icon icon-config-2'></FontAwesomeIcon>
           <h2 className='text-text_dark text-5xl font-semibold mt-4'>SOBRE MIM</h2>
         </div>
         <div className='flex flex-col items-left ml-20 mr-20'>

@@ -1,11 +1,14 @@
-import factsImg from '../public/static/images/facts.jpeg'
+import Image from 'next/image';
+import factsImg from 'public/static/images/facts.jpeg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlay } from '@fortawesome/free-solid-svg-icons'
 
 const Facts = () => {
   return (
     <div className="flex flex-row h-screen">
-      <div className="flex flex-col items-center justify-center mx-auto w-3/5 bg-white">
+      <div className="flex flex-col items-center justify-center mx-auto w-1/2 bg-primary">
         <div className='flex flex-row items-center justify-start'>
-          <div className='triangle'></div>
+          <FontAwesomeIcon icon={faPlay} className='text-icon icon-config-2'></FontAwesomeIcon>
           <h2 className='text-text_dark text-5xl font-semibold mt-4'>CURIOSIDADES</h2>
         </div>
         <div className='flex flex-col items-left ml-20 mr-20'>
@@ -23,7 +26,7 @@ const Facts = () => {
           </div>
         </div>
       </div>
-      <div className="w-2/5">
+      <div className="w-1/2">
         <Image src={factsImg} quality={100} className='h-screen'/>
       </div>
     </div>

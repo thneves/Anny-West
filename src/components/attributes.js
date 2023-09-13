@@ -1,14 +1,17 @@
-import charsImg from '../public/static/images/chars.jpeg'
+import Image from 'next/image';
+import charsImg from 'public/static/images/chars.jpeg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlay } from '@fortawesome/free-solid-svg-icons'
 
 const Attributes = () => {
     return (
         <div className="flex flex-row h-screen">
-        <div className="w-3/5">
+        <div className="w-2/5">
           <Image src={charsImg} quality={100} className='h-screen'/>
         </div>
-        <div className="flex flex-col items-center justify-center mx-auto w-2/5 bg-white">
+        <div className="flex flex-col items-center justify-center mx-auto w-3/5 bg-primary text-text_dark">
           <div className='flex flex-row items-center justify-start'>
-            <div className='triangle'></div>
+            <FontAwesomeIcon icon={faPlay} className='text-icon icon-config-2'></FontAwesomeIcon>
             <h2 className='text-text_dark text-5xl font-semibold mt-4'>CARACTERÍSTICAS FÍSICAS</h2>
           </div>
           <div>

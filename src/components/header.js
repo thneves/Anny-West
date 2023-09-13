@@ -1,10 +1,13 @@
+import Image from 'next/image';
 import heroImage from 'public/static/images/header-main.jpeg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlay } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   return (
     <header className="flex flex-row h-screen">
       <div className="flex flex-col items-center justify-center mx-auto w-1/2 bg-primary">
-        <div className='triangle'></div>
+        <FontAwesomeIcon icon={faPlay} className='text-icon icon-config'></FontAwesomeIcon>
         <h1 className='text-text_dark text-header font-semibold mt-4'>ANNY WEST</h1>
         <h2 className='text-text_dark text-6xl font-light font-montserrat tracking-widest'>modelo</h2>
       </div>

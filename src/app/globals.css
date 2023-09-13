@@ -26,10 +26,12 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.triangle {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 50px 35px 0 35px;
-  border-color: #b16c51 transparent transparent transparent;
+.icon-config {
+  rotate: 90deg;
+  width: 60px;
+}
+
+.icon-config-2 {
+  rotate: 90deg;
+  width: 40px;
 }

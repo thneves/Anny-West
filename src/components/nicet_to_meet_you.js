@@ -1,8 +1,11 @@
+import Image from 'next/image';
+import prazerImg from 'public/static/images/prazer.jpeg'
 
 const NiceToMeetYou = () => {
   return(
     <div>
-      <h1>Olá, mundo!</h1>
+      <span>PRAZER,</span>
+      <Image src={prazerImg} quality={100} className='h-screen'/>
     </div>
   )
 }
