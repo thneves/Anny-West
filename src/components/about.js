@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import aboutImg from 'public/static/images/about.jpeg'
 
-const Header = () => {
+const About = () => {
   return (
     <div className="flex flex-row h-screen">
       <div className="flex flex-col items-center justify-center mx-auto w-3/5 bg-white">
@@ -31,4 +31,4 @@ const Header = () => {
   );
 }
 
-export default Header;
+export default About;
