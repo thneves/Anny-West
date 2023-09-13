@@ -32,7 +32,10 @@ module.exports = {
       '5xl': '3.052rem',
       '6xl': '4.115rem',
       header: '6.5rem',
-    }
+    },
+    fontFamily: {
+      montserrat: ['var(--font-montserrat)'],
+    },
   },
   plugins: [],
 }
