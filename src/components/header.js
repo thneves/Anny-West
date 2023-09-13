@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import heroImage from 'public/static/images/header-main.jpeg'
 
 const Header = () => {
