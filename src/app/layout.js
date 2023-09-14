@@ -20,6 +20,11 @@ const montserrat = Montserrat({
       path: './fonts/Montserrat-Light.ttf',
       weight: '300',
       style: 'normal',
+    },
+    {
+      path: './fonts/Montserrat-Thin.ttf',
+      weight: '100',
+      style: 'normal',
     }
   ],
   variable: 'montserrat',
