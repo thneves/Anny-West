@@ -26,17 +26,13 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.icon-config {
-  rotate: 90deg;
-  width: 60px;
+
+.bg-half-colors {
+  background-image: linear-gradient(to bottom,#f8fafc 0%, #f8fafc 50%, #283032 50%, #283032 100%);
 }
 
-.icon-config-2 {
-  rotate: 90deg;
-  width: 40px;
-}
-
-.icon-config-3 {
-  rotate: 90deg;
-  width: 30px;
+.prazer {
+  position: absolute;
+  left: 20%;
+  top: 30%;
 }

@@ -15,10 +15,8 @@ module.exports = {
     },
     colors: {
       primary: '#e0d6d5',
-      secondary: '#F5F5F5',
-      tertiary: '#F5F5F5',
       white: '#f8fafc',
-      dark: '#F5F5F5',
+      dark: '#283032',
       text_dark: '#283032',
       icon: '#b16c51',
     },
