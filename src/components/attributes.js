@@ -15,19 +15,19 @@ const Attributes = () => {
           </div>
           <div className='grid grid-cols-2 gap-4 ml-20 mt-7'>
             <div className='flex flex-col'>
-                <span className='font-bold text-4xl tracking-widest'>Altura</span>
+                <span className='font-bold text-3xl tracking-widest'>Altura</span>
                 <span className='font-light font-montserrat text-3xl tracking-widest'>1,70cm</span>
             </div>
             <div className='flex flex-col'>
-                <span className='font-bold text-4xl tracking-widest'>Vestuário</span>
+                <span className='font-bold text-3xl tracking-widest'>Vestuário</span>
                 <span className='font-light font-montserrat text-3xl tracking-widest'>P ou 38</span>
             </div>
             <div className='flex flex-col'>
-                <span className='font-bold text-4xl tracking-widest'>Peso</span>
+                <span className='font-bold text-3xl tracking-widest'>Peso</span>
                 <span className='font-light font-montserrat text-3xl tracking-widest'>56kg</span>
             </div>
             <div className='flex flex-col'>
-                <span className='font-bold text-4xl tracking-widest'>Sapatos</span>
+                <span className='font-bold text-3xl tracking-widest'>Sapatos</span>
                 <span className='font-light font-montserrat text-3xl tracking-widest'>37</span>
             </div>
           </div>

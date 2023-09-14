@@ -13,7 +13,7 @@ const About = () => {
         <div className='flex flex-col items-left ml-20 mr-20'>
           <span className='text-text_dark text-2xl font-light font-montserrat tracking-widest mb-3'>23 anos</span>
           <span className='text-text_dark text-2xl font-light font-montserrat tracking-widest mb-3'>FLORIANÓPOLIS - SC</span>
-          <span className='text-text_dark text-2xl font-light font-montserrat tracking-widest mb-4'>modelo</span>
+          <span className='text-text_dark text-2xl font-light font-montserrat tracking-widest mb-4'>Modelo</span>
           <p className='font-montserrat text-text_dark font-light  text-2xl w-11/12'>
             <strong>Hi! </strong>
             Eu sou a Anny West, seja bem-vindo(a) a me conhecer de uma forma mais profunda.
