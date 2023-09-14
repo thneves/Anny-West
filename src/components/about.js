@@ -8,7 +8,7 @@ const About = () => {
       <div className="flex flex-col pt-28 pl-16 mx-auto w-3/5 bg-white">
         <div className='flex flex-row justfity-start mb-2'>
           <AiFillCaretDown color='#b16c51' size={80} />
-          <h2 className='text-text_dark text-5xl font-semibold mt-1'>SOBRE MIM</h2>
+          <h2 className='text-text_dark text-5xl mt-2 font-lovelo'>SOBRE MIM</h2>
         </div>
         <div className='flex flex-col items-left ml-20 mr-20'>
           <span className='text-text_dark text-2xl font-light font-montserrat tracking-widest mb-3'>23 anos</span>

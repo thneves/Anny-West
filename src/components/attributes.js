@@ -11,7 +11,7 @@ const Attributes = () => {
         <div className="flex flex-col pt-28 pl-16 mx-auto w-3/5 bg-primary text-text_dark">
           <div className='flex flex-row justfity-start mb-2'>
             <AiFillCaretDown color='#b16c51' size={80} />
-            <h2 className='text-text_dark text-5xl font-semibold mt-1'>CARACTERÍSTICAS<br></br> FÍSICAS</h2>
+            <h2 className='text-text_dark text-5xl mt-1 font-lovelo'>CARACTERÍSTICAS<br></br> FÍSICAS</h2>
           </div>
           <div className='grid grid-cols-2 gap-y-8  ml-20 mt-7 w-3/5'>
             <div className='flex flex-col'>
