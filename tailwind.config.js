@@ -36,6 +36,7 @@ module.exports = {
     },
     fontFamily: {
       montserrat: ['var(--font-montserrat)'],
+      lovelo: ['var(--font-lovelo)'],
     },
   },
   plugins: [],

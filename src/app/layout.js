@@ -1,8 +1,9 @@
 import './globals.css'
+import localFont from 'next/font/local'
 import { Inter } from 'next/font/google'
 import { Montserrat } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const lovelo = localFont({src: './Lovelo.otf', variable: '--font-lovelo' })
 const montserrat = Montserrat({
   subsets: ['latin'],
   src: [
@@ -27,7 +28,7 @@ const montserrat = Montserrat({
       style: 'normal',
     }
   ],
-  variable: 'montserrat',
+  variable: '--font-montserrat',
  })
 
 export const metadata = {
@@ -37,8 +38,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${montserrat.variable}`}>
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${montserrat.variable} ${lovelo.variable}`}>
+      <body>{children}</body>
     </html>
   )
 }
