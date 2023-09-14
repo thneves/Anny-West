@@ -8,7 +8,9 @@ const Attributes = () => {
         <div className="w-2/5">
           <Image src={charsImg} quality={100} className='h-screen'/>
         </div>
-        <div className="flex flex-col pt-28 pl-16 mx-auto w-3/5 bg-primary text-text_dark">
+        <div className="relative flex flex-col pt-28 pl-16 mx-auto w-3/5 bg-primary text-text_dark">
+
+        <div className='absolute left-0 bottom-0 w-4 h-2/5 bg-icon'></div>
           <div className='flex flex-row justfity-start mb-2'>
             <AiFillCaretDown color='#b16c51' size={80} />
             <h2 className='text-text_dark text-5xl mt-1 font-lovelo'>CARACTERÍSTICAS<br></br> FÍSICAS</h2>
