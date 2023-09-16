@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <main className='min-w-[280px]'>
       <Header />
+      <About  />
       {/* <About />
       <Attributes />
       <NiceToMeetYou />
