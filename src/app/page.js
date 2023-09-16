@@ -11,11 +11,9 @@ export default function Home() {
       <Header />
       <About  />
       <Attributes />
-      {/* <About />
-      <Attributes />
       <NiceToMeetYou />
       <Facts />
-      <Footer /> */}
+      <Footer />
     </main>
   )
 }
