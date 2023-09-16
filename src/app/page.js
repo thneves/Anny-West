@@ -7,13 +7,13 @@ import NiceToMeetYou from '@/components/nicet_to_meet_you'
 
 export default function Home() {
   return (
-    <>
+    <main className='min-w-[280px]'>
       <Header />
-      <About />
+      {/* <About />
       <Attributes />
       <NiceToMeetYou />
       <Facts />
-      <Footer />
-    </>
+      <Footer /> */}
+    </main>
   )
 }

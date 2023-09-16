@@ -29,13 +29,22 @@ module.exports = {
       '3xl': '1.953rem',
       '4xl': '2.441rem',
       '5xl': '3.052rem',
-      '6xl': '4.115rem',
+      '6xl': '3.615rem',
+      '7xl': '4.115rem',
       header: '6.5rem',
     },
     fontFamily: {
       montserrat: ['var(--font-montserrat)'],
       lovelo: ['var(--font-lovelo)'],
     },
+    screens: {
+      'xs': '280px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    }
   },
   plugins: [],
 }
