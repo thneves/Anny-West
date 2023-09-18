@@ -25,7 +25,7 @@ const About = () => {
               className='text-text_dark text-base sm:text-1xl font-light font-montserrat tracking-widest mb-2 sm:mb-4'>
               Modelo
             </span>
-            <p className='font-montserrat text-md xs:text-xs sm:text-left sm:text-base text-text_dark font-light w-11/12'>
+            <p className='font-montserrat text-md xs:text-md sm:text-left sm:text-base text-text_dark font-light w-11/12'>
               <strong>Hi! </strong>
               Eu sou a Anny West, seja bem-vindo(a) a me conhecer de uma forma mais profunda.
               <br/>

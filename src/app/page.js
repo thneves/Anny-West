@@ -10,10 +10,10 @@ export default function Home() {
     <main className='min-w-[280px]'>
       <Header />
       <About  />
-      <Attributes />
+      {/*<Attributes />
       <NiceToMeetYou />
       <Facts />
-      <Footer />
+       <Footer />*/}
     </main>
   )
 }
