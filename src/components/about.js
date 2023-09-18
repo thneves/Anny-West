@@ -5,7 +5,7 @@ import { AiFillCaretDown } from 'react-icons/ai';
 const About = () => {
   return (
     <div className="flex sm:flex-row flex-col h-screen">
-      <div className="flex flex-col pt-4 w-full pl-5 pb-4 sm:pt-8 md:pt-28 md:pl-16 h-2/5 sm:h-full sm:mx-auto sm:w-1/2 md:w-3/5 w-3/5 bg-white">
+      <div className="flex flex-col pt-4 w-full pl-5 pb-4 sm:pt-8 md:pt-28 md:pl-16 h-2/5 xs:h-1/2 sm:h-full sm:mx-auto sm:w-1/2 md:w-3/5 w-3/5 bg-white">
         <div className='flex sm:flex-row flex-col items-center justfity-start mb-1 sm:mb-2 h-1/5 sm:mb-0'>
           <AiFillCaretDown color='#b16c51' size={60} />
           <h2 className='text-text_dark text-2xl ml-1 sm:sm:text-4xl md:text-5xl mt-1 sm:mt-2 font-lovelo'>SOBRE MIM</h2>
@@ -37,8 +37,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="w-full sm:w-1/2 w-2/5 h-3/5">
-        <Image src={aboutImg} quality={100} className='h-full sm:h-screen'/>
+      <div className="w-full xs:h-1/2 sm:w-1/2 w-2/5 h-1/5">
+        <Image src={aboutImg} quality={100} className='h-screen xs:h-full'/>
       </div>
     </div>
   );
