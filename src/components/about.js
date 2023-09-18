@@ -38,7 +38,7 @@ const About = () => {
         </div>
       </div>
       <div className="w-full xs:h-1/2 sm:w-1/2 w-2/5 h-1/5">
-        <Image src={aboutImg} quality={100} className='h-screen xs:h-full'/>
+        <Image src={aboutImg} quality={100} className='xs:h-full sm:h-screen'/>
       </div>
     </div>
   );
