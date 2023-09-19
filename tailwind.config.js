@@ -39,6 +39,7 @@ module.exports = {
       lovelo: ['var(--font-lovelo)'],
     },
     screens: {
+      'xxs': '200px',
       'xs': '280px',
       'sm': '640px',
       'md': '768px',
