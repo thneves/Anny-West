@@ -15,7 +15,7 @@ const Attributes = () => {
             <AiFillCaretDown color='#b16c51' size={30} />
             <h2 className='text-text_dark text-2xl xs:text-xl sm:text-2xl md:text-5xl mt-1 font-lovelo'>CARACTERÍSTICAS<br className='xs:hidden'></br> FÍSICAS</h2>
           </div>
-          <div className='sm:grid grid-cols-2 sm:gap-8  gap-2 xs:flex xs:flex-col xs:mx-auto sm:ml-20 mt-7'>
+          <div className='grid grid-cols-2 sm:gap-8  gap-2 xs:mx-auto sm:ml-20 mt-7'>
             <div className='flex flex-col'>
                 <span className='font-bold xs:text-base sm:text-2xl md:text-2xl lg:text-3xl tracking-widest'>Altura</span>
                 <span className='font-light font-montserrat xs:text-base sm:text-2xl md:text-2xl lg:text-3xl tracking-widest'>1,70cm</span>
