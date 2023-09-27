@@ -12,8 +12,8 @@ export default function Home() {
       <About  />
       <Attributes />
       <NiceToMeetYou />
-      {/*<Facts />
-       <Footer />*/}
+      <Facts />
+       <Footer />
     </main>
   )
 }
